@@ -11,5 +11,5 @@ func main() {
 }
 
 func greet(name string) (string, error) {
-    return fmt.Sprintf("Hello %s, this is just a test", name), nil
+    return fmt.Sprintf("Hello %s, this is just a test, first feature", name), nil
 }
