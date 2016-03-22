@@ -5,7 +5,9 @@ import (
 )
 
 func main() {
-    greet("circle")
+    msg, _ := greet("circle")
+    fmt.Println(msg)
+    
 }
 
 func greet(name string) (string, error) {
